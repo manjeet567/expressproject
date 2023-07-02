@@ -1,0 +1,36 @@
+<section id="footer">
+    <img src="/media/border footer.png" alt="" id="border-footer-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/media/logo.png.png" alt="" id="footer-logo">
+          <p><%=footer.cdetails%></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Indigo pvt ltd</h2>
+          <p><span><i class="bi bi-buildings"></i></span><%=footer.address%></p>
+          <p><span><i class="bi bi-telephone-fill"></i></span>141-<%=footer.tel%></p>
+          <p><span><i class="bi bi-phone-fill"></i></span>+91 <%=footer.mobile%></p>
+          <p><span><i class="bi bi-envelope"></i></span> <%=footer.email%></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Query form</h2>
+          <form action="/query" method="post">
+            <input type="email" name="email" id="" placeholder="Enter email" class="form-control">
+            <textarea name="query" id="" placeholder="Enter query" class="form-control mt-2 mb-2"></textarea>
+            <button type="submit" class="form-control btn btn-success">Post query</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+         <a href="<%=footer.insta%>" target="_blank"><img src="/media/insta.png.png" alt=""></a> 
+          <a href="<%=footer.linkdin%>" target="_blank"><img src="/media/in.png.png" alt=""></a> 
+          <a href="<%=footer.twitter%>" target="_blank"><img src="/media/twi.png.png" alt=""></a>
+         <a href="<%=footer.snap%>" target="_blank"><img src="/media/snap (1).png" alt=""></a> 
+        </div>
+      </div>
+    </div>
+  </section>

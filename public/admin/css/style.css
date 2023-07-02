@@ -1,0 +1,68 @@
+#midcontact table tr th{
+    font-size: 10px;
+}
+#midcontact table tr td{
+    font-size: 10px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    height: 650px;
+}
+#login h2{
+    color: green;
+    text-align: centers;
+}
+#header{
+    background: linear-gradient(to right, rgb(21,15,188),rgb(4,2,64));
+    padding: 15px 0px;
+}
+#header a{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+#header button{
+    float: right;
+}
+#header h2{
+    color: white;
+}
+#mid{
+    padding: 20px 0px;
+}
+#mid table tr td{
+    font-size: 12px;
+}
+
+#footer{
+    background: linear-gradient(to right, rgb(21,15,188),rgb(4,2,64));
+    padding: 3px 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+#footer h2{
+    color: white;
+    text-align: center;
+}
+#mid h3{
+    text-align: center;
+}
+#mid p{
+    text-align: center;
+}
+#login small{
+    color: red;
+}
+#mid small{
+    color: red;
+}
+.navbar-toggler{
+    color: white;
+    font-size: 35px;
+}
+#mid{
+    margin-bottom: 40px;
+}
